@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/testvagrant/Baganna/Appium2.0/src/test/java/launchapp/AppLaunchTest.java">
+        <parameter name="package" value="io.appium.android.apis"/>
+        <parameter name="activity" value=".media.VideoViewDemo"/>
+        <parameter name="apkFile" value="ul-coach.apk"/>
+        <classes>
+            <class name="launchapp.AppLaunchTest">
+                <methods>
+                    <include name="shouldTestAndroidAppLaunch"/>
+<!--                    <include name="shouldTestIOSAppLaunch"/>-->
+<!--                    <include name="shouldTestOpenCurrentActivity"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
